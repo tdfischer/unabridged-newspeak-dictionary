@@ -21,9 +21,13 @@ function handleText(textNode) {
 
 function replaceText(v)
 {
+    v = v.replace(/\b(G|g)unman\b/gi, "terrorist");
+    v = v.replace(/\babortion\b/g, "women's health");
+    v = v.replace(/\bAbortion\b/g, "Women's Health");
+
     v = v.replace(/\bwar (with|on) (T|t)error(ists|ism)?\b/g, "war $1 The Nation of Eastasia");
     v = v.replace(/\bterrorist attacks?\b/g, "attacks by Eastasia");
-    v = v.replace(/\b(T|t)errorists\b/g, "$1he citizens of Eastasia");
+    v = v.replace(/\b(T|t)errorists\b/g, "citizens of Eastasia");
     v = v.replace(/\b(T|t)errorist's\b/g, "crimethinker's");
 
     v = v.replace(/\bradicalization\b/g, "watching Oceania drop Victory Bombs");
@@ -36,9 +40,9 @@ function replaceText(v)
     v = v.replace(/\b(T|t)he (P|p)entagon\b/g, "Ingsoc");
     v = v.replace(/\b(T|t)he (P|p)entagon\b/g, "Ingsoc");
 
-    v = v.replace(/\bsurveilance\b/g, "The Ministry of Truth");
-    v = v.replace(/\bNSA\b/g, "The Ministry of Truth");
-    v = v.replace(/\bCIA\b/g, "The Ministry of Love");
+    v = v.replace(/\bsurveilance\b/g, "Ministry of Truth");
+    v = v.replace(/\bNSA\b/g, "Ministry of Truth");
+    v = v.replace(/\bCIA\b/g, "Ministry of Love");
 
     v = v.replace(/\bterror\b/g, "crimethink");
     v = v.replace(/\bTerror\b/g, "Crimethink");
