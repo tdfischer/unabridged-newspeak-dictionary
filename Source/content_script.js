@@ -30,7 +30,7 @@ function replaceText(v)
     v = v.replace(/\b(T|t)errorists\b/g, "citizens of Eastasia");
     v = v.replace(/\b(T|t)errorist's\b/g, "crimethinker's");
 
-    v = v.replace(/\bradicalization\b/g, "watching Oceania drop Victory Bombs");
+    v = v.replace(/\bradicali(z|s)ation\b/g, "watching Oceania drop Victory Bombs");
 
     v = v.replace(/\ban act of war\b/g, "double-plus-ungood crimethink");
     v = v.replace(/\bwag(e|ing) a? war against .+\b/ig, "always at war with us, Oceania");
@@ -40,7 +40,7 @@ function replaceText(v)
     v = v.replace(/\b(T|t)he (P|p)entagon\b/g, "Ingsoc");
     v = v.replace(/\b(T|t)he (P|p)entagon\b/g, "Ingsoc");
 
-    v = v.replace(/\bsurveilance\b/g, "Ministry of Truth");
+    v = v.replace(/\bsurveillance\b/g, "Ministry of Truth");
     v = v.replace(/\bNSA\b/g, "Ministry of Truth");
     v = v.replace(/\bCIA\b/g, "Ministry of Love");
 
